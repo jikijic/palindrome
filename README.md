@@ -3,8 +3,7 @@ import java.util.*;
 public class Palindrome {
   public static void main(String[] args) {
     //string variable
-    String inp = "";
-    
+    String inp = ""; 
     Scanner in = new Scanner(System.in);
     
     while(in.hasNextLine()){
@@ -40,10 +39,8 @@ public class Palindrome {
   //length of longest palindrome
   public static int longestPalSubstr(String str) { 
     int maxLength = 1; 
-  
     int start = 0; 
     int len = str.length(); 
-  
     int low, high; 
   
     for (int i = 1; i < len; ++i) { 
