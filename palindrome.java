@@ -1,3 +1,7 @@
+/*
+A palindrome program that retrieves the longest palindrome present in the inputed string.
+Author: Jeric Cereno
+*/
 import java.util.*;
  
 public class Palindrome {
